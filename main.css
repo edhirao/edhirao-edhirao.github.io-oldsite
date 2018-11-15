@@ -401,7 +401,7 @@ a.magnific:focus {
 
 /* Media Queries */
 
-@media(max-width: 500px){
+@media(max-width: 750px){
 	.line{
 		background: white;
 		border: 1px white solid;
@@ -409,8 +409,12 @@ a.magnific:focus {
 		height: 2px;
 		margin: 50px auto auto auto;
 	}
+	.parallax {
+		min-height: 2000px;
+		background: transparent;
 }
-@media(min-width: 500px){
+}
+@media(min-width: 751px){
 	.exp {
 		color: white;
 		padding: 25px auto;
