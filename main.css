@@ -434,7 +434,7 @@ a.magnific:focus {
 		-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
-	  	background-size: cover;
+	  	background-size: 300px ;
 
 	  	background-position: center;
 
