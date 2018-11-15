@@ -245,6 +245,10 @@ a.magnific:focus {
 	padding: 1%;
 }
 
+.techskillpad {
+	padding-bottom: 40px;
+}
+
 .lang {
 	line-height: .5em;
 	text-align: left;
@@ -296,6 +300,9 @@ a.magnific:focus {
 	margin-top: 50px;
 	font-size: .8em;
 	line-height: 5px;
+}
+.rifle {
+	margin-bottom: 50px;
 }
 
 #expert {
@@ -452,7 +459,7 @@ a.magnific:focus {
 @media(min-width: 801px){
 	.exp {
 		color: white;
-		padding: 25px auto;
+		padding: 50px auto;
 		border-radius: 15px;
 		margin: 30px 6px;
 		border: 1px white solid;
