@@ -421,6 +421,10 @@ a.magnific:focus {
 		margin: 50px auto auto auto;
 	}
 	
+	data-image-src:first-child {
+		height: 80%;
+	}
+
 	.porthead {
 		font-size: "montserrat";
 	}
@@ -428,6 +432,8 @@ a.magnific:focus {
 	#home {
 		background-image: url('parallaxBG/heropage.jpg');
 	  	background-position: center;
+	  	width: 100%;
+	  	height: auto;
 	}
 }
 @media(min-width: 801px){
