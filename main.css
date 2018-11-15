@@ -428,6 +428,17 @@ a.magnific:focus {
 	.porthead {
 		font-size: "montserrat";
 	}
+
+	#home {
+		background-image: url('parallaxBG/heropage.jpg');
+		-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+
+	  	background-position: center;
+
+	}
 }
 @media(min-width: 801px){
 	.exp {
