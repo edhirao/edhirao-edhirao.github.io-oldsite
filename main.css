@@ -431,13 +431,9 @@ a.magnific:focus {
 
 	#home {
 		background-image: url('parallaxBG/heropage.jpg');
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-	  	background-size: 300px ;
-
 	  	background-position: center;
-
+	  	width: 100%;
+	  	height: auto;
 	}
 }
 @media(min-width: 801px){
