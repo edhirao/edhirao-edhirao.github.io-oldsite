@@ -410,9 +410,12 @@ a.magnific:focus {
 		margin: 50px auto auto auto;
 	}
 	.parallax {
-		min-height: 2000px;
+		min-height: 1000px;
 		background: transparent;
-}
+	}
+	.porthead {
+		font-size: "montserrat";
+	}
 }
 @media(min-width: 801px){
 	.exp {
