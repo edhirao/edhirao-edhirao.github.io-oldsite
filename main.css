@@ -410,6 +410,10 @@ a.magnific:focus {
 		margin: 50px auto auto auto;
 	}
 	
+	data-image-src:first-child {
+		height: 80%;
+	}
+
 	.herobg {
 		max-height: -600px !important;
 	}
