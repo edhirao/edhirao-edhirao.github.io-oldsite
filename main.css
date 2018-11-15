@@ -409,10 +409,10 @@ a.magnific:focus {
 		height: 2px;
 		margin: 50px auto auto auto;
 	}
-	/*.parallax {
-		min-height: 1000px;
-		background: transparent;
-	} */
+	
+	.herobg {
+		max-height: 800px;
+	}
 	.porthead {
 		font-size: "montserrat";
 	}
