@@ -57,7 +57,7 @@ textarea {
 }
 
 p, a, h3, label, input, textarea,
-.btn, .topic, .name, .headingAbout {
+.btn, .topic, .name, .headingAbout, .porthead {
 	font-family: "montserrat";
 }
 
@@ -401,7 +401,7 @@ a.magnific:focus {
 
 /* Media Queries */
 
-@media(max-width: 800px){
+@media only screen and (max-width: 800px){
 	.line{
 		background: white;
 		border: 1px white solid;
