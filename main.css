@@ -430,7 +430,7 @@ a.magnific:focus {
 	}
 
 	#home {
-		background-image: url('parallaxBG/heropage.jpg');
+		background-image: url('parallaxBG/heropagemobile.jpg');
 	  	background-position: center;
 	  	width: 100%;
 	  	height: auto;
