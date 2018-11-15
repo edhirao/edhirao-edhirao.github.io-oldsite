@@ -399,6 +399,17 @@ a.magnific:focus {
 	margin-bottom: 10px;
 }
 
+#home {
+	background-image: url('parallaxBG/heropage.jpg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+  	background-position: center;
+
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 800px){
@@ -414,9 +425,6 @@ a.magnific:focus {
 		height: 80%;
 	}
 
-	.herobg {
-		max-height: -600px !important;
-	}
 	.porthead {
 		font-size: "montserrat";
 	}
