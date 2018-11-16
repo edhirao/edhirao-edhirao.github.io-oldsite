@@ -418,11 +418,6 @@ a.magnific:focus {
 		height: 2px;
 		margin: 50px auto auto auto;
 	}
-	
-	data-image-src:first-child {
-		height: 80%;
-	}
-
 	.porthead {
 		font-size: "montserrat";
 	}
@@ -454,24 +449,6 @@ a.magnific:focus {
 		top: -250px;
 		position: relative;
 		animation-delay: 1.25s;
-	}
-
-	.thankyou {
-		background-color: rgba(7,26,57,.70);
-		border-radius: 25px;
-		color:white;
-		width:90%;
-		height: 400px;
-		padding-top: 130px;
-		padding-left: 20px;
-		padding-right: 20px;
-		text-align: center;
-		margin: 300px auto;
-	}
-
-	.tybutton {
-		width: 200px;
-		margin-top: 30px;
 	}
 }
 @media(min-width: 801px){
@@ -525,23 +502,6 @@ a.magnific:focus {
 	  	background-size: cover;
 	  	background-position: center;
 	}
-
-	.thankyou {
-		background-color: rgba(7,26,57,.70);
-		border-radius: 25px;
-		color:white;
-		width:50%;
-		height: 400px;
-		padding-top: 130px;
-		text-align: center;
-		margin: 300px auto;
-	}
-
-	.tybutton {
-		width: 200px;
-		margin-top: 30px;
-	}
-
 }
 
 @media (max-width: 1000px) {
@@ -601,9 +561,20 @@ a.magnific:focus {
 }
 */
 
+.thankyou {
+		background-color: white;
+		padding-top: 100px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+		margin-top: 10%;
 
+	}
 
-
+	.tybutton {
+		width: 200px;
+		margin-top: 30px;
+	}
 
 
 
