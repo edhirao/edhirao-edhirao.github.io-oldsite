@@ -349,6 +349,25 @@ a.magnific:focus {
 	padding: 0;
 }
 
+
+#projects {
+  /* Prevent vertical gaps */
+  line-height: 1;
+  -webkit-column-count: 2;
+  -webkit-column-gap:   25px;
+  -moz-column-count:    2;
+  -moz-column-gap:      25px;
+  column-count:         2;
+  column-gap:           25px;  
+}
+
+#projects img {
+  /* Just in case there are inline attributes */
+  margin-top: 25px;
+  width: 100% !important;
+  height: auto !important;
+}
+
 #photography {
   /* Prevent vertical gaps */
   line-height: 1;
@@ -509,6 +528,11 @@ a.magnific:focus {
   		-moz-column-count:    3;
   		-webkit-column-count: 3;
   		column-count:         3;
+  	}
+  	#projects {
+  		-moz-column-count:    1;
+  		-webkit-column-count: 1;
+  		column-count:         1;
   	}
 }
 
